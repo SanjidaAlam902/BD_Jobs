@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="563.0" prefWidth="722.0" xmlns="http://javafx.com/javafx/24.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.bd_jobs.SP_DashboardViewController">
+    <children>
+        <Label layoutX="319.0" layoutY="42.0" style="-fx-font-size: 23;" text="Sponsor" textFill="#251bb7" underline="true" />
+        <Label layoutX="66.0" layoutY="117.0" text="Dashboard" underline="true" />
+        <Button layoutX="525.0" layoutY="77.0" mnemonicParsing="false" onAction="#OnClickSignInNavigate" text="Sign In" />
+        <Button layoutX="615.0" layoutY="77.0" mnemonicParsing="false" onAction="#OnClickLogOutNavigate" text="LogOut" />
+        <Button layoutX="68.0" layoutY="149.0" mnemonicParsing="false" onAction="#OnClickCreateSponsorshipPackages" prefHeight="26.0" prefWidth="598.0" text="Create Sponsorship Packages" />
+        <Button layoutX="70.0" layoutY="199.0" mnemonicParsing="false" onAction="#OnClickMakeSponsorshipPayments" prefHeight="26.0" prefWidth="598.0" text="Sponsorship Payments" />
+        <Button layoutX="70.0" layoutY="251.0" mnemonicParsing="false" onAction="#OnClickSponsoredJobListings" prefHeight="26.0" prefWidth="598.0" text="Sponsored Job Listings" />
+        <Button layoutX="68.0" layoutY="301.0" mnemonicParsing="false" onAction="#OnClickRegisterForJobFairEvents" prefHeight="26.0" prefWidth="598.0" text="Register for Job Fair Events" />
+        <Button layoutX="70.0" layoutY="354.0" mnemonicParsing="false" onAction="#OnClickViewSponsorshipAnalytics" prefHeight="26.0" prefWidth="598.0" text="View Sponsorship Analytics" />
+        <Button layoutX="70.0" layoutY="403.0" mnemonicParsing="false" onAction="#OnClickUploadDocuments" prefHeight="26.0" prefWidth="598.0" text="Upload Documents" />
+        <Button layoutX="70.0" layoutY="455.0" mnemonicParsing="false" onAction="#OnClickManageCompanyProfile" prefHeight="26.0" prefWidth="598.0" text="Company Profile" />
+        <Button layoutX="70.0" layoutY="502.0" mnemonicParsing="false" onAction="#OnClickEvaluteOutcomeAndProvideFeedback" prefHeight="26.0" prefWidth="598.0" text="Evalute Outcome &amp; Provide Feedback" />
+    </children>
+</AnchorPane>

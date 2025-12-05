@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="432.0" prefWidth="597.0" xmlns="http://javafx.com/javafx/24.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.bd_jobs.CreateAccountController">
+   <children>
+      <Label layoutX="214.0" layoutY="29.0" style="-fx-font-size: 24; -fx-font-weight: bold;" text="Create Account" textFill="#3e28bc" />
+      <Label layoutX="30.0" layoutY="93.0" style="-fx-font-size: 14; -fx-font-weight: bold;" text="User Information" />
+      <Label layoutX="39.0" layoutY="129.0" text="Full Name:" />
+      <Label layoutX="39.0" layoutY="158.0" text="Email:" />
+      <Label layoutX="39.0" layoutY="185.0" text="Gender" />
+      <Label layoutX="313.0" layoutY="129.0" text="Date Of Birth:" />
+      <Label layoutX="313.0" layoutY="176.0" text="Alert:" />
+      <Label layoutX="41.0" layoutY="229.0" text="Create Password:" />
+      <Label layoutX="41.0" layoutY="273.0" text="User Information:" />
+      <TextField fx:id="fullNameUserTextField" layoutX="102.0" layoutY="125.0" />
+      <TextField fx:id="emailUserTextField" layoutX="103.0" layoutY="154.0" />
+      <ComboBox fx:id="userRoleComboBox" layoutX="103.0" layoutY="183.0" prefWidth="150.0" />
+      <DatePicker fx:id="dobUserDatePicker" layoutX="390.0" layoutY="125.0" />
+      <TextField fx:id="validateUserTextField" layoutX="349.0" layoutY="171.0" prefHeight="35.0" prefWidth="207.0" />
+      <PasswordField fx:id="createPasswordCreateAccountTextField" layoutX="135.0" layoutY="225.0" />
+      <Button layoutX="458.0" layoutY="225.0" mnemonicParsing="false" onAction="#createAccountUserOnClick" text="Create Account" />
+      <TextArea fx:id="userInfoValidateLabel" layoutX="140.0" layoutY="270.0" prefHeight="126.0" prefWidth="310.0" wrapText="true" />
+      <Button layoutX="495.0" layoutY="29.0" mnemonicParsing="false" onAction="#OnClickNavigateLogIn" text="LogIn" textFill="#1281e1" underline="true" />
+   </children>
+</AnchorPane>
