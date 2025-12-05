@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/25" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.bd_jobs.controllers.DownloadResumeController">
+   <children>
+      <TableView fx:id="CandidateTable" layoutX="14.0" layoutY="186.0" prefHeight="200.0" prefWidth="200.0">
+        <columns>
+          <TableColumn fx:id="colName" prefWidth="75.0" text="colName" />
+          <TableColumn fx:id="colEmail" prefWidth="75.0" text="colEmail" />
+        </columns>
+      </TableView>
+      <Button layoutX="47.0" layoutY="26.0" mnemonicParsing="false" onAction="#onView" text="View" />
+      <Button layoutX="114.0" layoutY="26.0" mnemonicParsing="false" onAction="#onDownload" text="Download" />
+      <Button layoutX="207.0" layoutY="26.0" mnemonicParsing="false" onAction="#onBack" text="Back" />
+   </children>
+</AnchorPane>
